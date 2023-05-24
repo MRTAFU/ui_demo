@@ -1,0 +1,326 @@
+OPT_LEVEL = Some("0")
+TARGET = Some("aarch64-apple-darwin")
+HOST = Some("aarch64-apple-darwin")
+cargo:rerun-if-env-changed=CXX_aarch64-apple-darwin
+CXX_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXX_aarch64_apple_darwin
+CXX_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64-apple-darwin
+CXXFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64_apple_darwin
+CXXFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,vh")
+cargo:rerun-if-env-changed=CXX_aarch64-apple-darwin
+CXX_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXX_aarch64_apple_darwin
+CXX_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64-apple-darwin
+CXXFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64_apple_darwin
+CXXFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some("aes,crc,dit,dotprod,dpb,dpb2,fcma,fhm,flagm,fp16,frintts,jsconv,lor,lse,neon,paca,pacg,pan,pmuv3,ras,rcpc,rcpc2,rdm,sb,sha2,sha3,ssbs,vh")
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_glsl.o" "-c" "src/vendor/SPIRV-Cross/spirv_glsl.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross.o" "-c" "src/vendor/SPIRV-Cross/spirv_cross.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.o" "-c" "src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cfg.o" "-c" "src/vendor/SPIRV-Cross/spirv_cfg.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_parser.o" "-c" "src/vendor/SPIRV-Cross/spirv_parser.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/wrapper.o" "-c" "src/wrapper.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross_util.o" "-c" "src/vendor/SPIRV-Cross/spirv_cross_util.cpp"
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_hlsl.o" "-c" "src/vendor/SPIRV-Cross/spirv_hlsl.cpp"
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_parser.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_parser.hpp:27:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_util.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_util.hpp:27:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_hlsl.cpp:25:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_hlsl.hpp:27:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_glsl.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_glsl.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_glsl.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:39:16: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        Parser parser(move(ir_));
+cargo:warning=                      ^
+cargo:warning=                      std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:41:9: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        set_ir(move(parser.get_parsed_ir()));
+cargo:warning=               ^
+cargo:warning=               std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:57:10: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        *this = move(other);
+cargo:warning=                ^
+cargo:warning=                std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:64:16: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                pool_group = move(other.pool_group);
+cargo:warning=                             ^
+cargo:warning=                             std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:65:11: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                spirv = move(other.spirv);
+cargo:warning=                        ^
+cargo:warning=                        std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_parser.cpp:34:13: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        ir.spirv = move(spirv);
+cargo:warning=                   ^
+cargo:warning=                   std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:66:10: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                meta = move(other.meta);
+cargo:warning=                       ^
+cargo:warning=                       std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:68:22: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                        ids_for_type[i] = move(other.ids_for_type[i]);
+cargo:warning=                                          ^
+cargo:warning=                                          std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:69:30: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                ids_for_constant_or_type = move(other.ids_for_constant_or_type);
+cargo:warning=                                           ^
+cargo:warning=                                           std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_parser.cpp:259:36: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                ir.declared_extensions.push_back(move(ext));
+cargo:warning=                                                 ^
+cargo:warning=                                                 std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:70:34: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                ids_for_constant_or_variable = move(other.ids_for_constant_or_variable);
+cargo:warning=                                               ^
+cargo:warning=                                               std::
+cargo:warning=In file included from src/wrapper.cpp:4:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross_util.hpp:27:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:71:27: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                declared_capabilities = move(other.declared_capabilities);
+cargo:warning=                                        ^
+cargo:warning=                                        std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:72:25: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                declared_extensions = move(other.declared_extensions);
+cargo:warning=                                      ^
+cargo:warning=                                      std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:73:16: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                block_meta = move(other.block_meta);
+cargo:warning=                             ^
+cargo:warning=                             std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:74:35: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                continue_block_to_loop_header = move(other.continue_block_to_loop_header);
+cargo:warning=                                                ^
+cargo:warning=                                                std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:75:18: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                entry_points = move(other.entry_points);
+cargo:warning=                               ^
+cargo:warning=                               std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:76:9: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                ids = move(other.ids);
+cargo:warning=                      ^
+cargo:warning=                      std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.cpp:999:10: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        *this = move(other);
+cargo:warning=                ^
+cargo:warning=                std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:48:9: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        set_ir(move(parser.get_parsed_ir()));
+cargo:warning=               ^
+cargo:warning=               std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:58:9: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        set_ir(move(ir_));
+cargo:warning=               ^
+cargo:warning=               std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:63:7: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        ir = move(ir_);
+cargo:warning=             ^
+cargo:warning=             std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:841:31: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        active_interface_variables = move(active_variables);
+cargo:warning=                                     ^
+cargo:warning=                                     std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:2330:27: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        parameter_remapping.push(move(remapping));
+cargo:warning=                                 ^
+cargo:warning=                                 std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:4106:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        comparison_ids = move(handler.comparison_ids);
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_cross.cpp:4159:18: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        function_cfgs = move(handler.function_cfgs);
+cargo:warning=                        ^
+cargo:warning=                        std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:4876:4: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+cargo:warning=                        sprintf(print_buffer, "0x%xu", c.scalar(col, row));
+cargo:warning=                        ^
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:188:1: note: 'sprintf' has been explicitly marked deprecated here
+cargo:warning=__deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+cargo:warning=^
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:215:48: note: expanded from macro '__deprecated_msg'
+cargo:warning=        #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+cargo:warning=                                                      ^
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:4942:4: warning: 'sprintf' is deprecated: This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead. [-Wdeprecated-declarations]
+cargo:warning=                        sprintf(print_buffer, "0x%llx%s", static_cast<unsigned long long>(u64_value),
+cargo:warning=                        ^
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h:188:1: note: 'sprintf' has been explicitly marked deprecated here
+cargo:warning=__deprecated_msg("This function is provided for compatibility reasons only.  Due to security concerns inherent in the design of sprintf(3), it is highly recommended that you use snprintf(3) instead.")
+cargo:warning=^
+cargo:warning=/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/cdefs.h:215:48: note: expanded from macro '__deprecated_msg'
+cargo:warning=        #define __deprecated_msg(_msg) __attribute__((__deprecated__(_msg)))
+cargo:warning=                                                      ^
+cargo:warning=1 warning generated.
+exit status: 0
+running: "c++" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-gdwarf-2" "-fno-omit-frame-pointer" "-arch" "arm64" "-Wall" "-Wextra" "-DSPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS" "-DSPIRV_CROSS_WRAPPER_NO_EXCEPTIONS" "-DSPIRV_CROSS_WRAPPER_GLSL" "-DSPIRV_CROSS_WRAPPER_HLSL" "-DSPIRV_CROSS_WRAPPER_MSL" "-std=c++14" "-o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_msl.o" "-c" "src/vendor/SPIRV-Cross/spirv_msl.cpp"
+cargo:warning=1 warning generated.
+exit status: 0
+cargo:warning=src/vendor/SPIRV-Cross/spirv_hlsl.cpp:2348:21: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                arglist.push_back(move(out_argument));
+cargo:warning=                                  ^
+cargo:warning=                                  std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_hlsl.cpp:3967:11: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                *expr = move(load_expr);
+cargo:warning=                        ^
+cargo:warning=                        std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:9889:44: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                auto &expr = set<SPIRExpression>(ops[1], move(e), ops[0], should_forward(ops[2]));
+cargo:warning=                                                         ^
+cargo:warning=                                                         std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_hlsl.cpp:5601:26: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=        root_constants_layout = move(layout);
+cargo:warning=                                ^
+cargo:warning=                                std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:14973:10: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                expr = move(new_expr);
+cargo:warning=                       ^
+cargo:warning=                       std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:15306:49: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                        auto &lhs_expr = set<SPIRExpression>(lhs_id, move(lhs), lhs_type_id, true);
+cargo:warning=                                                                     ^
+cargo:warning=                                                                     std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_glsl.cpp:15319:49: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                        auto &rhs_expr = set<SPIRExpression>(rhs_id, move(rhs), rhs_type_id, true);
+cargo:warning=                                                                     ^
+cargo:warning=                                                                     std::
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_msl.cpp:24:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_msl.hpp:27:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_glsl.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cross.hpp:28:
+cargo:warning=In file included from src/vendor/SPIRV-Cross/spirv_cfg.hpp:27:
+cargo:warning=src/vendor/SPIRV-Cross/spirv_common.hpp:653:19: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=            : expression(move(expr))
+cargo:warning=                         ^
+cargo:warning=                         std::
+cargo:warning=15 warnings generated.
+exit status: 0
+cargo:warning=1 warning generated.
+exit status: 0
+cargo:warning=src/vendor/SPIRV-Cross/spirv_msl.cpp:40:20: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=    : CompilerGLSL(move(spirv_))
+cargo:warning=                   ^
+cargo:warning=                   std::
+cargo:warning=3 warnings generated.
+exit status: 0
+cargo:warning=10 warnings generated.
+exit status: 0
+cargo:warning=src/vendor/SPIRV-Cross/spirv_msl.cpp:6911:44: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                auto &expr = set<SPIRExpression>(ops[1], move(e), ops[0], should_forward(ops[2]));
+cargo:warning=                                                         ^
+cargo:warning=                                                         std::
+cargo:warning=src/vendor/SPIRV-Cross/spirv_msl.cpp:9931:49: warning: unqualified call to 'std::move' [-Wunqualified-std-cast-call]
+cargo:warning=                return CompilerGLSL::convert_row_major_matrix(move(exp_str), exp_type, physical_type_id, is_packed);
+cargo:warning=                                                              ^
+cargo:warning=                                                              std::
+cargo:warning=4 warnings generated.
+exit status: 0
+cargo:warning=7 warnings generated.
+exit status: 0
+cargo:warning=4 warnings generated.
+exit status: 0
+cargo:rerun-if-env-changed=AR_aarch64-apple-darwin
+AR_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=AR_aarch64_apple_darwin
+AR_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-apple-darwin
+ARFLAGS_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_apple_darwin
+ARFLAGS_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+running: ZERO_AR_DATE="1" "ar" "cq" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/libspirv-cross-rust-wrapper.a" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/wrapper.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cfg.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross_parsed_ir.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_parser.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_cross_util.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_glsl.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_hlsl.o" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/src/vendor/SPIRV-Cross/spirv_msl.o"
+exit status: 0
+running: "ar" "s" "/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out/libspirv-cross-rust-wrapper.a"
+exit status: 0
+cargo:rustc-link-lib=static=spirv-cross-rust-wrapper
+cargo:rustc-link-search=native=/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/build/spirv_cross-dda02e7979bca2fe/out
+cargo:rerun-if-env-changed=CXXSTDLIB_aarch64-apple-darwin
+CXXSTDLIB_aarch64-apple-darwin = None
+cargo:rerun-if-env-changed=CXXSTDLIB_aarch64_apple_darwin
+CXXSTDLIB_aarch64_apple_darwin = None
+cargo:rerun-if-env-changed=HOST_CXXSTDLIB
+HOST_CXXSTDLIB = None
+cargo:rerun-if-env-changed=CXXSTDLIB
+CXXSTDLIB = None
+cargo:rustc-link-lib=c++

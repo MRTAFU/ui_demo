@@ -1,0 +1,9 @@
+/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/deps/gfx_backend_empty-30abcc20b72aa4fe.rmeta: /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/lib.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/buffer.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/descriptor.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/image.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/memory.rs
+
+/Users/nakazaki_tafu/Projects/study-rust/ui_demo/target/debug/deps/gfx_backend_empty-30abcc20b72aa4fe.d: /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/lib.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/buffer.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/descriptor.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/image.rs /Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/memory.rs
+
+/Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/lib.rs:
+/Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/buffer.rs:
+/Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/descriptor.rs:
+/Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/image.rs:
+/Users/nakazaki_tafu/.cargo/registry/src/github.com-1ecc6299db9ec823/gfx-backend-empty-0.7.0/src/memory.rs:
